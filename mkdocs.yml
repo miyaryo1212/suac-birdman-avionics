@@ -1,0 +1,26 @@
+site_name: SUAC Birdman Avionics
+theme:
+  name: material
+  language: ja
+plugins:
+  - search
+  - git-revision-date-localized:
+      fallback_to_build_date: true
+      type: datetime
+      timezone: Asia/Tokyo
+  - markdownextradata
+  - awesome-pages
+
+markdown_extensions:
+  - tables
+  - toc:
+      permalink: true
+  - admonition
+  - footnotes
+  - def_list
+  - attr_list
+
+extra:
+  updated: !!timestamp 2025-08-01
+
+site_url: https://miyaryo1212.github.io/suac-birdman-avionics/
